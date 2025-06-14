@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:bisque;
+    padding: 0px 10vw;
+    
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.orde_now_button{
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    place-items:center ;
+    padding: 20px;
+    
+}
+
+a{
+    all: unset;
+    cursor: pointer;
+}
+
+.menu-item-button{
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba (255,255,255,0.2);
+    border-radius: 40px;
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    place-items: center;
+}
+
+.menu-item-button:hover{
+    background-color: white;
+    color:#b1454a;
+    cursor:pointer;
+}
+
+.menu-item-image{
+    background-size: contain;
+    background-position: center;
+    background-repeat:no-repeat;
+    width: 36px;
+    height: 36px;
+
+}
+
+.food-item-checkmark{
+    width:24px;
+    height:24px;
+    background-image: url(./project/assets/check.svg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    background-color: #b1454a;
+
+
+}
+
+.food-item-checkmark-item{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 10px;
+    align-items: center;
+}
+
+input{
+    all: unset;
+}
+
+input::placeholder{
+    color: #fff;
+    opacity: 0..5;
+    font-size: 18px;
+}
